@@ -1,8 +1,8 @@
-#
+# -*- coding: utf-8 -*-
 # CloudLab Profile for c4130 Node with Tesla V100 GPUs
 # Ubuntu 22.04 + NVIDIA Driver + (可选) CUDA 11.7
-#
-# -*- coding: utf-8 -*-
+
+
 
 import geni.portal as portal
 import geni.rspec.pg as pg

@@ -11,9 +11,10 @@ request = pc.makeRequestRSpec()
 
 # Request a single c4130 node
 node = request.RawPC("node")
+
 node.hardware_type = "c4130"
 # Replace with the actual Ubuntu 22.04 image URN available in your CloudLab site
-node.disk_image = "urn:publicid:IDN+your-site+image+UBUNTU22-64-STD"
+node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU22-64-STD"
 # Enable routable control IP if SSH over public address is needed; otherwise comment out
 node.routable_control_ip = "true"
 
